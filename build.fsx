@@ -28,38 +28,38 @@ open SourceLink
 
 // The name of the project
 // (used by attributes in AssemblyInfo, name of a NuGet package and directory in 'src')
-let project = "##ProjectName##"
+let project = "dotNetExercises"
 
 // Short summary of the project
 // (used as description in AssemblyInfo and as a short summary for NuGet package)
-let summary = "##Summary##"
+let summary = "C# and F# programming exercises"
 
 // Longer description of the project
 // (used as a description for NuGet package; line breaks are automatically cleaned up)
-let description = "##Description##"
+let description = "C# and F# programming exercises by Oscar Vargas Torres"
 
 // List of author names (for NuGet package)
-let authors = [ "##Author##" ]
+let authors = [ "Oscar Vargas Torres" ]
 
 // Tags for your project (for NuGet package)
-let tags = "##Tags##"
+let tags = "C# F# exercises"
 
 // File system information
-let solutionFile  = "##ProjectName##.sln"
+let solutionFile  = "dotNetExercises.sln"
 
 // Pattern specifying assemblies to be tested using NUnit
 let testAssemblies = "tests/**/bin/Release/*Tests*.dll"
 
 // Git configuration (used for publishing documentation in gh-pages branch)
 // The profile where the project is posted
-let gitOwner = "##GitHome##"
-let gitHome = sprintf "%s/%s" "##GitUrl##" gitOwner
+let gitOwner = "oscarvarto"
+let gitHome = sprintf "%s/%s" "https://github.com" gitOwner
 
 // The name of the project on GitHub
-let gitName = "##GitName##"
+let gitName = "dotNetExercises"
 
 // The url for the raw files hosted
-let gitRaw = environVarOrDefault "gitRaw" "##GitRawUrl##/##GitHome##"
+let gitRaw = environVarOrDefault "gitRaw" "https://raw.githubusercontent.com/oscarvarto"
 
 // --------------------------------------------------------------------------------------
 // END TODO: The rest of the file includes standard build steps
